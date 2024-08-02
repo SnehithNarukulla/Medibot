@@ -1,0 +1,153 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?","Hi,what are you suffering from?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug list","Offering support for Adverse drug","Medical prescription"],
+         "context": [""]
+        },
+        {"tag": "drug_1",
+         "patterns": ["Easy Digestion" ],
+         "responses": ["Digene"],
+         "context": [""]
+        },
+        {"tag": "drug_2",
+         "patterns": ["Burning in stomach" ],
+         "responses": ["pantap"],
+         "context": [""]
+        },
+        {"tag": "drug_3",
+         "patterns": ["Anti tetanus vaccine" ],
+         "responses": ["Tetavac Injection"],
+         "context": [""]
+        },
+        {"tag": "drug_4",
+         "patterns": ["cleaning of wounds","surgical procedures"],
+         "responses": ["Betadine lotion"],
+         "context": [""]
+        },
+        {"tag": "drug_5",
+         "patterns": ["Applying to wounds " ],
+         "responses": ["Betadine ointment"],
+         "context": [""]
+        },
+        {"tag": "drug_6",
+         "patterns": ["mixed infections"],
+         "responses": ["clauvou 625mp (antibiotic)"],
+         "context": [""]
+        },
+        {"tag": "drug_7",
+         "patterns": ["Infections" ],
+         "responses": ["Mox 500mp (antibiotic)"],
+         "context": [""]
+        },
+        {"tag": "drug_8",
+         "patterns": ["tooth infection","gum infection"],
+         "responses": ["Doxy cycline (antibiotic)"],
+         "context": [""]
+        },
+        {"tag": "drug_9",
+         "patterns": ["cough"],
+         "responses": ["Doxt syrup","Bendril"],
+         "context": [""]
+        },
+        {"tag": "drug_10",
+         "patterns": ["fractures","swelling"],
+         "responses": ["chymoval fort"],
+         "context": [""]
+        },
+        {"tag": "drug_11",
+         "patterns": ["cleaning surfaces in surgeries"],
+         "responses": ["hydrogen peroxide"],
+         "context": [""]
+        },
+        {"tag": "drug_12",
+         "patterns": ["fever"],
+         "responses": ["crocin","dolo 650","paracetamol"],
+         "context": [""]
+        },
+        {"tag": "drug_13",
+         "patterns": ["headache"],
+         "responses": ["Brufen 400mp"],
+         "context": [""]
+        },
+        {"tag": "drug_14",
+         "patterns": ["swelling"],
+         "responses": ["serax fort"],
+         "context": [""]
+        },
+        {"tag": "drug_15",
+         "patterns": ["toothache"],
+         "responses": ["keterol DT"],
+         "context": [""]
+        },
+        {"tag": "drug_16",
+         "patterns": ["body pains"],
+         "responses": ["vovevau SR"],
+         "context": [""]
+        },
+        {"tag": "drug_17",
+         "patterns": ["cold"],
+         "responses": ["cold act","nasal spray","otrivin oxy"],
+         "context": [""]
+        },
+        {"tag": "drug_18",
+         "patterns": ["soar throat"],
+         "responses": ["strepcils"],
+         "context": [""]
+        },
+        {"tag": "drug_19",
+         "patterns": ["muscle relaxants"],
+         "responses": ["myospaz"],
+         "context": [""]
+        },
+        {"tag": "drug_20",
+         "patterns": ["tooth infections"],
+         "responses": ["Amoxycillin 500mp"],
+         "context": [""]
+        },
+        {"tag": "drug_21",
+         "patterns": ["oval ulcers"],
+         "responses": ["mucopain ointment"],
+         "context": [""]
+        },
+        {"tag": "drug_22",
+         "patterns": ["gum diseases"],
+         "responses": ["Tetracycline 500mp (antibiotic)"],
+         "context": [""]
+        },
+        {"tag": "drug_23",
+         "patterns": ["mouth cleaning"],
+         "responses": ["clonex mouth wash"],
+         "context": [""]
+        },
+        {"tag": "drug_24",
+         "patterns": ["diarrhoea"],
+         "responses": ["loperamide"],
+         "context": [""]
+        },
+        {"tag": "drug_25",
+         "patterns": ["stomach ache"],
+         "responses": ["acetaminophen"],
+         "context": [""]
+        }
+   ]
+}
